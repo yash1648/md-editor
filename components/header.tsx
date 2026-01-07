@@ -29,9 +29,11 @@ export function Header({ onThemeChange, currentTheme = "light" }: HeaderProps) {
             <FileText className="h-6 w-6 text-primary-foreground" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-foreground">Markdown Editor v3</h1>
+            <h1 className="text-xl font-bold text-foreground">MD-Editor</h1>
             <p className="text-sm text-muted-foreground">
-              Professional README builder with validation, error handling & storage resilience
+              Forget ads for now.
+Developers come from these places 👇Forget ads for now.
+Developers come from these places 👇
             </p>
           </div>
         </div>
