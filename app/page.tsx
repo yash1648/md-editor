@@ -90,7 +90,7 @@ export default function Home() {
   useEffect(() => {
     const result = safeSetItem("preview-theme", previewTheme)
     if (!result.success) {
-      console.warn("[v0] Could not save theme preference:", result.message)
+      console.warn("Could not save theme preference:", result.message)
     }
   }, [previewTheme])
 

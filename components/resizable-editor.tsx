@@ -45,7 +45,7 @@ export function ResizableEditor({ value, onChange, onScroll, onStorageError }: R
       })
 
       if (!result.success) {
-        console.warn("[v0] Failed to save editor mode:", result.message)
+        console.warn("Failed to save editor mode:", result.message)
       }
     }
   }, [mode, mounted, onStorageError])
